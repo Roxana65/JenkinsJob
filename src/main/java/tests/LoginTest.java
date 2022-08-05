@@ -25,7 +25,7 @@ public class LoginTest extends BaseTest{
 		
 	}
 	@Test
-	public void loginTest2(String username, String password) {
+	public void loginTest2() {
 		NavigationMenuPage navMenu = new NavigationMenuPage(driver);
 		navMenu.navigateTo(navMenu.loginLink);
 		//assertTrue(false);
